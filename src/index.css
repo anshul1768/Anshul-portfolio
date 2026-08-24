@@ -12,6 +12,15 @@
   --color-primary-hover: #60a5fa;
 
   --color-border: #1e293b;
+
+  /* Cyber / Digital */
+  --color-cyber: #3b82f6;
+  --color-cyber-light: #60a5fa;
+  --color-cyber-dark: #2563eb;
+  --color-cyber-glow: rgba(59, 130, 246, 0.35);
+
+  --color-neon: #22d3ee;
+  --color-danger: #f43f5e;
 }
 
 html {
@@ -23,4 +32,10 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: Inter, system-ui, sans-serif;
+}
+
+/* Digital selection */
+::selection {
+  background: var(--color-primary);
+  color: white;
 }
